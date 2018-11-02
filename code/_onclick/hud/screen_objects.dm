@@ -422,3 +422,11 @@
 /obj/screen/health/Click(var/location, var/control, var/params)
 	usr.Click(usr, params)
 
+/obj/screen/fov
+	icon = 'icons/mob/vision_cone.dmi'
+	icon_state = "combat"
+	name = ""
+	screen_loc = "SOUTH,WEST"
+	mouse_opacity = 0
+	layer = UNDER_HUD_LAYER
+	plane = HUD_PLANE
