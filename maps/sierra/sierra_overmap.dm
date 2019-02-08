@@ -1,8 +1,7 @@
 /obj/effect/overmap/ship/sierra
 	name = "NSV Sierra"
 	fore_dir = WEST
-	vessel_mass = 190
-	vessel_mass = 40000 // Масса Факела, надо будет - смените ~bear1ake
+	vessel_mass = 28000
 	start_x = 4
 	start_y = 5
 	base = TRUE
@@ -45,9 +44,9 @@
 	)
 
 /obj/effect/overmap/ship/landable/exploration_shuttle
-	name = "Charon"
-	shuttle = "Charon"
-	fore_dir = NORTH
+	name = "Prometeus"
+	shuttle = "Prometeus"
+	fore_dir = WEST
 
 /obj/effect/overmap/ship/landable/guppy
 	name = "Guppy"
@@ -56,7 +55,7 @@
 
 /obj/machinery/computer/shuttle_control/explore/exploration_shuttle
 	name = "charon control console"
-	shuttle_tag = "Charon"
+	shuttle_tag = "Prometeus"
 	req_access = list(access_expedition_shuttle_helm)
 
 /obj/machinery/computer/shuttle_control/explore/guppy

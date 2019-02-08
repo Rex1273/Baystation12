@@ -268,24 +268,58 @@
 
 //Charon
 
-/area/exploration_shuttle
+//area/exploration_shuttle
 	name = "Charon"
 	icon_state = "shuttlered"
 	base_turf = /turf/simulated/floor/plating
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
 
-/area/exploration_shuttle/cockpit
+//area/exploration_shuttle/cockpit
 	name = "Charon - Cockpit"
-/area/exploration_shuttle/atmos
+//area/exploration_shuttle/atmos
 	name = "Charon - Atmos Compartment"
-/area/exploration_shuttle/power
+//area/exploration_shuttle/power
 	name = "Charon - Power Compartment"
-/area/exploration_shuttle/medical
+//area/exploration_shuttle/medical
 	name = "Charon - Medical Compartment"
-/area/exploration_shuttle/cargo
+//area/exploration_shuttle/cargo
 	name = "Charon - Cargo Bay"
-/area/exploration_shuttle/airlock
+//area/exploration_shuttle/airlock
 	name = "Charon - Airlock Compartment"
+
+
+//Prometeus
+
+/area/exploration_shuttle
+	name = "Prometeus"
+	icon_state = "shuttlered"
+	base_turf = /turf/space
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
+
+/area/exploration_shuttle/cockpit
+	name = "Prometeus - Cockpit"
+/area/exploration_shuttle/atmos
+	name = "Prometeus - Atmos Compartment"
+/area/exploration_shuttle/power
+	name = "Prometeus - Power Compartment"
+/area/exploration_shuttle/medical
+	name = "Prometeus - Medical Compartment"
+/area/exploration_shuttle/cargo
+	name = "Prometeus - Cargo Bay"
+/area/exploration_shuttle/airlock
+	name = "Prometeus - Airlock Compartment"
+/area/exploration_shuttle/hall
+	name = "Prometeus - Hall"
+/area/exploration_shuttle/rnd
+	name = "Prometeus - Research"
+/area/exploration_shuttle/robotic
+	name = "Prometeus - Robotic Lab"
+/area/exploration_shuttle/anomaly
+	name = "Prometeus - Anomaly Lab"
+/area/exploration_shuttle/botany
+	name = "Prometeus - Xenobotany"
+/area/exploration_shuttle/equip
+	name = "Prometeus - Equipment"
 
 //Guppy
 
@@ -324,7 +358,7 @@
 	icon_state = "shuttle"
 	requires_power = 0
 	dynamic_lighting = 1
-	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
+	area_flags = AREA_FLAG_ION_SHIELDED
 
 /area/turbolift/start
 	name = "Turbolift Start"
@@ -651,6 +685,30 @@
 	name = "Xenobiology Access"
 	icon_state = "xeno_lab"
 
+/area/rnd/xenobiology/entry2
+	name = "Xenobiology Access"
+	icon_state = "xeno_lab"
+
+/area/rnd/xenobiology/level1
+	name = "Xenobiology Level One"
+	icon_state = "xeno_lab"
+
+/area/rnd/xenobiology/level2
+	name = "Xenobiology Level Two"
+	icon_state = "xeno_lab"
+
+/area/rnd/xenobiology/atmos
+	name = "Xenobiology Atmos Hub"
+	icon_state = "xeno_lab"
+
+/area/rnd/xenobiology/water_cell
+	name = "Xenobiology Water Cell"
+	icon_state = "xeno_lab"
+
+/area/rnd/xenobiology/storage
+	name = "Xenobiology Storage"
+	icon_state = "xeno_lab"
+
 /area/rnd/checkpoint
 	name = "Research Security Checkpoint"
 	icon_state = "checkpoint1"
@@ -836,6 +894,10 @@
 /area/medical/infirmary
 	name = "Infirmary Hallway"
 	icon_state = "medbay"
+
+/area/medical/starboard_hallway
+	name = "Starboard Hallway"
+	icon_state = "medbay2"
 
 /area/medical/infirmreception
 	name = "Infirmary Reception"
@@ -1171,7 +1233,7 @@
 	ambience = list('sound/ambience/ambimo1.ogg','sound/ambience/ambimo2.ogg','sound/music/main.ogg')
 
 /area/medical/sleeper
-	name = "Emergency Treatment Centre"
+	name = "Emergency Treatment Center"
 	icon_state = "exam_room"
 
 /area/medical/surgery

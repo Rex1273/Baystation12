@@ -561,9 +561,9 @@
 	base_turf = /turf/simulated/floor/plating
 
 /datum/shuttle/autodock/overmap/exploration_shuttle
-	name = "Charon"
+	name = "Prometeus"
 	move_time = 90
-	shuttle_area = list(/area/exploration_shuttle/cockpit, /area/exploration_shuttle/atmos, /area/exploration_shuttle/medical, /area/exploration_shuttle/power, /area/exploration_shuttle/cargo, /area/exploration_shuttle/airlock)
+	shuttle_area = list(/area/exploration_shuttle/equip,/area/exploration_shuttle/botany,/area/exploration_shuttle/anomaly,/area/exploration_shuttle/robotic,/area/exploration_shuttle/rnd,/area/exploration_shuttle/hall,/area/exploration_shuttle/airlock,/area/exploration_shuttle/cargo,/area/exploration_shuttle/medical,/area/exploration_shuttle/power,/area/exploration_shuttle/atmos,/area/exploration_shuttle/cockpit)
 	dock_target = "calypso_shuttle"
 	current_location = "nav_hangar_calypso"
 	landmark_transition = "nav_transit_calypso"
@@ -651,3 +651,9 @@
 //Makes the deck management program use hangar access
 /datum/nano_module/deck_management
 	default_access = list(access_hangar, access_cargo, access_heads)
+
+// away transit
+
+/obj/effect/shuttle_landmark/sierra/transit/blueriver_shuttle
+	name = "In transit"
+	landmark_tag = "nav_transit_blueriver"
