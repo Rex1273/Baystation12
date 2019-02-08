@@ -234,6 +234,7 @@ Keeping them simple for now, just spawning with basic EC uniforms, and pretty mu
 	hierarchy_type = /decl/hierarchy/outfit/job/castelnau/crew/research
 	pda_type = /obj/item/modular_computer/pda/science
 	l_ear = /obj/item/device/radio/headset/headset_sci
+	uniform = /obj/item/clothing/under/color/white
 
 /decl/hierarchy/outfit/job/castelnau/crew/research/New()
 	..()
@@ -242,14 +243,14 @@ Keeping them simple for now, just spawning with basic EC uniforms, and pretty mu
 /decl/hierarchy/outfit/job/castelnau/crew/research/senior_scientist
 	name = OUTFIT_JOB_NAME("Senior Researcher - Castelnau")
 	uniform = /obj/item/clothing/under/rank/scientist/executive/nanotrasen
-	suit = /obj/item/clothing/suit/storage/toggle/labcoat/science/nanotrasen
+	suit = /obj/item/clothing/suit/storage/toggle/labcoat
 	shoes = /obj/item/clothing/shoes/white
 	pda_type = /obj/item/modular_computer/pda/heads/rd
 	id_type = /obj/item/weapon/card/id/sierra/crew/research/senior_scientist
 
 /decl/hierarchy/outfit/job/castelnau/crew/research/scientist
 	name = OUTFIT_JOB_NAME("Scientist - Castelnau")
-	uniform = /obj/item/clothing/under/rank/scientist/nanotrasen
+	suit = /obj/item/clothing/suit/storage/toggle/labcoat
 	shoes = /obj/item/clothing/shoes/white
 	id_type = /obj/item/weapon/card/id/sierra/crew/research/scientist
 
@@ -264,10 +265,11 @@ Keeping them simple for now, just spawning with basic EC uniforms, and pretty mu
 /decl/hierarchy/outfit/job/castelnau/crew/research/scientist/psych
 	name = OUTFIT_JOB_NAME("Psychologist - Castelnau")
 	uniform = /obj/item/clothing/under/rank/psych
+	suit = /obj/item/clothing/suit/storage/toggle/labcoat
 
 /decl/hierarchy/outfit/job/castelnau/crew/research/assist
 	name = OUTFIT_JOB_NAME("Research Assistant - Castelnau")
-	uniform = /obj/item/clothing/under/rank/scientist/nanotrasen
+	suit = /obj/item/clothing/suit/storage/toggle/labcoat
 	shoes = /obj/item/clothing/shoes/white
 	id_type = /obj/item/weapon/card/id/sierra/crew/research
 
