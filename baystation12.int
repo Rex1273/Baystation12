@@ -1,0 +1,9 @@
+// BEGIN_INTERNALS
+/*
+MAP_ZOOM: 1.000
+DIR: maps maps\castelnau 
+AUTO_FILE_DIR: OFF
+MAP_ICON_TYPE: 0
+WINDOW: maps\castelnau\castelnau-1.dmm;maps\castelnau\castelnau-2.dmm;maps\castelnau\castelnau-3.dmm;maps\castelnau\castelnau-5.dmm
+*/
+// END_INTERNALS
